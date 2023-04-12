@@ -1,1 +1,1 @@
-#Typescript tasks for learning.
+# Typescript tasks for learning.

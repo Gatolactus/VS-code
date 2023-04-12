@@ -7,8 +7,6 @@ n = 1  ==> [1, 2]     # [2^0, 2^1]
 n = 2  ==> [1, 2, 4]  # [2^0, 2^1, 2^2]
 */
 
-powersOfTwo(10);
-
 function powersOfTwo(n:number):number[]{
   let newAr:number[] = [];
 

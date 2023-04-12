@@ -16,7 +16,7 @@ We need to write a function that takes this collection and returns the number of
 
 function points(games : string[]): number {
 
-    let win = 0;
+    let win:number = 0;
     
     games.forEach(el1 => {
       const p1 = el1[0];

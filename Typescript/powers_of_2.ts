@@ -7,13 +7,13 @@ n = 1  ==> [1, 2]     # [2^0, 2^1]
 n = 2  ==> [1, 2, 4]  # [2^0, 2^1, 2^2]
 */
 
-powersOfTwo(2);
+powersOfTwo(10);
 
 function powersOfTwo(n:number):number[]{
-  const newAr = [];
+  let newAr:number[] = [];
 
   for (let i=0; i <= n; i++) {
-  newAr.push(2**i);
+  newAr.push((Math.pow(2, i)));
 }
 
   return newAr;

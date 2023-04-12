@@ -1,4 +1,3 @@
 *.js.map
 *.js
-test/hello.ts
-test/tsconfig.json
+Typescript/hello.ts

@@ -10,6 +10,7 @@ Numerical Score 	Letter Grade
 */
 
 function getGrade(a: number, b: number, c: number): string {
+    
     let d: number = (a + b + c) / 3;
 
     if (d >= 90) return "A";

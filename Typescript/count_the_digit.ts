@@ -17,6 +17,7 @@ Note that 121 has twice the digit 1.
 
 class G964 {
     public static nbDig(n: number, d: number): number {
+      
       let ar:number[] = [];
       let k:number;
   
